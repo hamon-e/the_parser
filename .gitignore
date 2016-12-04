@@ -1,0 +1,10 @@
+./tmp
+./old
+*.o
+*.o.db
+*.a
+*.d
+tags
+types_c.taghl
+a.out
+.historic
