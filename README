@@ -1,8 +1,8 @@
 #the_parser
 
-Generic parser that take a config file to see the different regex.
-It use it's own format (.gramz)
-It return a tree where each rule will create a subtree
+Generic parser that takes a config file to see the different regex.
+It uses its own format (.gramz)
+It returns a tree where each rule will create a subtree
 
 rules_names:	Creation of a rule
 
