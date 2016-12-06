@@ -1,0 +1,25 @@
+#the_parser
+
+Generic parser that take a config file to see the different regex.
+It use it's own format (.gramz)
+It return a tree where each rule will create a subtree
+
+rules_names:	Creation of a rule
+
+#phrase		Comments
+
+[rule_name]	Rule that will not be integrated to the tree
+
+()		Regroup severals regex
+|		Or
+!		Force at least one regex to be true
+-		That regex must be false
+
+?		0 or 1 repetition
++		1 or more repetitions
+*		0 or more repetitions
+
+'.'		One specific character
+"..."		A string
+
+See the_parser_example to see how to use it
